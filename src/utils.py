@@ -30,6 +30,16 @@ def identify_steel_family(df: pd.DataFrame) -> pd.Series:
     
     return families
 
+def get_steel_family(composition: Dict[str, float]) -> str:
+    """Get steel family for a single composition dictionary"""
+    df = pd.DataFrame([composition])
+    
+    for family_name, condition in STEEL_FAMILIES.items():
+        if condition(df).iloc[0]:
+            return family_name
+    
+    return 'Unknown'
+
 def validate_composition(composition: Dict[str, float]) -> Tuple[bool, str]:
     """Validate if composition is physically feasible"""
     total = sum(composition.values())
