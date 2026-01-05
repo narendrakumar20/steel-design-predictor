@@ -1028,12 +1028,12 @@ def inverse_design_mode(predictor, feature_engineer, scaler, selected_features):
         
         if st.button("🚀 Generate Solutions", type="primary", disabled=not valid_input, use_container_width=True):
             with col2:
-                with st.spinner(f"🧬 Running genetic algorithm (100 population × 50 generations)..."):
-                    generate_solutions(
-                        target_ys, target_uts, target_elong,
-                        predictor, feature_engineer, scaler, selected_features,
-                        cost_penalty, n_results
-                    )
+                st.info("🧬 Running genetic algorithm (100 population × 50 generations)...")
+                generate_solutions(
+                    target_ys, target_uts, target_elong,
+                    predictor, feature_engineer, scaler, selected_features,
+                    cost_penalty, n_results
+                )
 
 def generate_solutions(target_ys, target_uts, target_elong, predictor, 
                       feature_engineer, scaler, selected_features, cost_penalty, n_results):
