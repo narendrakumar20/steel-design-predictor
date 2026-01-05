@@ -1,4 +1,4 @@
-# 🏆 Steel Materials Co-Pilot
+# 🏆 Steel Property Predictor
 ## AI-Powered Materials Discovery Platform
 
 ### Revolutionary Features

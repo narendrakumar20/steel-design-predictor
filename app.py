@@ -22,7 +22,7 @@ from src.utils import ELEMENT_COLS, TARGET_COLS, format_composition_string, calc
 
 # Page config
 st.set_page_config(
-    page_title="Steel Materials Co-Pilot",
+    page_title="Steel Property Predictor",
     page_icon="🔬",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -84,7 +84,7 @@ def load_models():
 
 def main():
     # Header
-    st.title("🔬 Steel Materials Co-Pilot")
+    st.title("🔬 Steel Property Predictor")
     st.markdown("### AI-Powered Materials Discovery Platform")
     st.markdown("---")
     

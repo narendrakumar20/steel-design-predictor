@@ -126,7 +126,7 @@ def test_quick_prediction():
 
 def main():
     print("="*60)
-    print(" STEEL MATERIALS CO-PILOT - SYSTEM CHECK")
+    print(" STEEL PROPERTY PREDICTOR - SYSTEM CHECK")
     print("="*60)
     
     # Test imports

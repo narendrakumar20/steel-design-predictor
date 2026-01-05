@@ -1,10 +1,10 @@
 """
-Steel Materials Co-Pilot - Source Package
+Steel Property Predictor - Source Package
 AI-Powered Materials Discovery Platform
 """
 
 __version__ = "1.0.0"
-__author__ = "Steel Materials Co-Pilot Team"
+__author__ = "Steel Property Predictor Team"
 
 from .utils import ELEMENT_COLS, TARGET_COLS
 from .data_loader import SteelDataLoader

@@ -17,7 +17,7 @@ from src.uncertainty import UncertaintyEstimator
 
 def main():
     print("="*70)
-    print(" STEEL MATERIALS CO-PILOT - TRAINING PIPELINE")
+    print(" STEEL PROPERTY PREDICTOR - TRAINING PIPELINE")
     print("="*70)
     
     # 1. Load data

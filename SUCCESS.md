@@ -2,7 +2,7 @@
 
 ## ✅ What We Built
 
-A complete **Steel Materials Co-Pilot** platform with three revolutionary features:
+A complete **Steel Property Predictor** platform with three revolutionary features:
 
 ### 1. Physics-Constrained Neural Network (PCNN) ✓
 - **Innovation:** Custom loss function enforces UTS > YS constraint
