@@ -27,8 +27,8 @@ st.set_page_config(
     layout="wide",
     initial_sidebar_state="expanded",
     menu_items={
-        'Get Help': 'https://github.com/vamsi-op/steel-design-engine',
-        'Report a bug': 'https://github.com/vamsi-op/steel-design-engine/issues',
+        'Get Help': 'https://github.com/narendrakumar20/steel-design-predictor',
+        'Report a bug': 'https://github.com/narendrakumar20/steel-design-predictor/issues',
         'About': '# Steel Property Predictor\nAI-powered materials discovery platform'
     }
 )
@@ -689,7 +689,7 @@ def main():
         st.markdown("### AI-Powered Materials Discovery Platform")
     with col2:
         st.markdown("<br>", unsafe_allow_html=True)
-        st.markdown("[![GitHub](https://img.shields.io/badge/GitHub-View_Code-blue?logo=github)](https://github.com/vamsi-op/steel-design-engine)")
+        st.markdown("[![GitHub](https://img.shields.io/badge/GitHub-View_Code-blue?logo=github)](https://github.com/narendrakumar20/steel-design-predictor)")
     
     st.markdown("---")
     
@@ -1120,7 +1120,7 @@ def batch_analysis_mode(predictor, feature_engineer, scaler, selected_features, 
         0.38,0.65,0.28,0.90,0.10,0.15,0.05,0.00,0.00,0.00,0.00,0.00,0.00
         ```
         
-        [Download sample CSV template](https://github.com/vamsi-op/steel-design-engine/blob/master/data/sample_template.csv)
+        [Download sample CSV template](https://github.com/narendrakumar20/steel-design-predictor/blob/master/data/sample_template.csv)
         """)
     
     uploaded_file = st.file_uploader(
